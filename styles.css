@@ -1,0 +1,99 @@
+
+html,body{
+    padding: 0;
+    margin:0;
+    font-family: 'Space Mono', monospace;
+  }
+
+h3{
+    padding: 0rem 2rem;
+    font-size: 20px;
+}
+
+.flex-container .container-img{   
+    background-color: rgb(176, 140, 143);
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container .container-img img{   
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    position: fixed;
+    padding 0.5rem;
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    background-color: rgb(76, 140, 143);
+    color: blueviolet;
+}
+
+.flex-container .container-text{
+    padding: 2rem 1rem; 
+}
+
+.flex-container .container-text h2 {
+    color: greenyellow;
+    font-size: 24px;
+    background-color: rgb(182, 107, 173);
+}
+
+.flex-container .container-text p {
+    color: green;
+    font-size: 18px;
+    background-color: rgb(156, 156, 93);
+}
+
+.flex-container .container-text button {
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    border: 0ch;
+    padding: 1.5rem 2.5rem;
+}
+
+@media (max-width: 375px) {
+    .flex-container {
+        padding: 0rem;
+        display: flex;
+        left: 0rem;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .flex-container .container-text {
+        padding: 0.5rem 0.5rem; 
+    }
+    
+    .flex-container .container-text h2 {
+        font-size: 20px;   
+        
+    }
+    
+    .flex-container .container-text p {
+        font-size: 12px;
+    }
+    .flex-container .container-text{
+        padding: 0rem 1rem; 
+    }
+}
+
+.creditos {
+    display:flex;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    background-color: aquamarine;
+    text-align: center;
+}
+
